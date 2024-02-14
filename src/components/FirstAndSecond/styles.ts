@@ -12,7 +12,9 @@ export const Container = styled.div`
   .home-text h1 {
     font-size: 2rem;
     color: #fff;
+    font-weight: 500;
     text-transform: uppercase;
+    font-family: 'Inter', sans-serif;
   }
 
   .bg {

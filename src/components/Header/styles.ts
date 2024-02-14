@@ -3,7 +3,7 @@ import { motion } from 'framer-motion'
 
 export const Container = styled(motion.header)`
   width: 100%;
-  height: 200px;
+  height: 100px;
   position: fixed;
   top: 0;
   z-index: 9999;
@@ -19,11 +19,6 @@ export const Navbar = styled.div`
   transition: .5s linear;
   justify-content: space-between;
 
-  .shadow {
-    background: #1b1b1b;
-    box-shadow: 2px 2px 10px 4px rgb(14 55 54 / 15%);
-  }
-
   .logo {
     display: flex;
     align-items: center;
@@ -33,9 +28,10 @@ export const Navbar = styled.div`
 
     span {
       font-size: 1.5rem;
-      font-weight: 600;
+      font-weight: 400;
       color: #242424;
       margin-right: 10px;
+      font-family: 'Poppins', sans-serif;
     }
   }
 
@@ -59,7 +55,7 @@ export const Navbar = styled.div`
     column-gap: 0.8rem;
   }
 
-  .header-icon .fa-solid {
+  .header-icon .fa-solids {
     color: #bc9667;
   }
 
@@ -75,7 +71,6 @@ export const Navbar = styled.div`
   .search-box.active {
     top: 110%;
     transition: .2s all linear;
-    box-shadow: 2px 2px 10px 4px rgb(14 55 54 / 15%);
   }
 
   .search-box input {

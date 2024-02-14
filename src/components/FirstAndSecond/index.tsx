@@ -1,9 +1,9 @@
 import React from 'react';
-import bg from '../../assets/cafe.jpg';
+import bg from '../../assets/cafe.svg';
 import { Sticky } from '../../styles';
-import main from '../../assets/main.png';
+import main from '../../assets/main.svg';
 import { Container } from './styles';
-import cafe from '../../assets/footer-bg.jpg';
+import cafe from '../../assets/footer-bg.svg';
 import person from '../../assets/person.avif';
 import { slideInFromLeft } from '../../utils/motion';
 import { useTransform, motion, useScroll } from 'framer-motion';

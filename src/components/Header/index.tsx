@@ -1,4 +1,4 @@
-import logo from '../../assets/coffee.png';
+import logo from '../../assets/coffee.svg';
 import { Container, Navbar } from './styles';
 import React, { useEffect, useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -38,11 +38,11 @@ const Header: React.FC = () => {
           <motion.span variants={slideInFromLeft(0.8)}>GGcoffee</motion.span>
         </motion.a>
         <motion.div initial='hidden' animate='visible' variants={slideInFromRight(0.5)} className="header-icon">
-          <FontAwesomeIcon icon={faCartShopping} className='fa-solid' />
-          <FontAwesomeIcon icon={faSearch} className='fa-solid' id='search-icon' onClick={toggleSearch} />
+          <FontAwesomeIcon icon={faCartShopping} className='fa-solids' />
+          <FontAwesomeIcon icon={faSearch} className='fa-solids' id='search-icon' onClick={toggleSearch} />
         </motion.div>
         <div className={`search-box ${isSearchActive ? 'active' : ''}`}>
-          <input type="search" name="" id="" placeholder='pesquise o seu café  &#128521;' />
+          <input type="search" placeholder='pesquise o seu café  &#128521;' />
         </div>
       </Navbar>
     </Container>

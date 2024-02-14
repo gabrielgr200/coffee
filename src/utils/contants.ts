@@ -1,3 +1,11 @@
+import img1 from '../assets/img1.svg';
+import img2 from '../assets/img2.svg';
+import img3 from '../assets/img3.svg';
+import img4 from '../assets/img4.jpg';
+import img5 from '../assets/img5.jpg';
+import img6 from '../assets/img6.jpg';
+import img7 from '../assets/img7.jpg';
+
 export type CardType = {
     url: string;
     title: string;
@@ -6,38 +14,38 @@ export type CardType = {
 
 export const cards: CardType[] = [
     {
-      url: "/imgs/abstract/1.jpg",
-      title: "Title 1",
+      url: img1,
+      title: "Grãos de qualidade",
       id: 1,
     },
     {
-      url: "/imgs/abstract/2.jpg",
-      title: "Title 2",
+      url: img2,
+      title: "Cafés saborosos",
       id: 2,
     },
     {
-      url: "/imgs/abstract/3.jpg",
-      title: "Title 3",
+      url: img3,
+      title: "Cappuccinos deliciosos",
       id: 3,
     },
     {
-      url: "/imgs/abstract/4.jpg",
-      title: "Title 4",
+      url: img4,
+      title: "Lanches feitos na hora",
       id: 4,
     },
     {
-      url: "/imgs/abstract/5.jpg",
-      title: "Title 5",
+      url: img5,
+      title: "Ambiente limpo",
       id: 5,
     },
     {
-      url: "/imgs/abstract/6.jpg",
-      title: "Title 6",
+      url: img6,
+      title: "Produtos com desconto",
       id: 6,
     },
     {
-      url: "/imgs/abstract/7.jpg",
-      title: "Title 7",
+      url: img7,
+      title: "Profissionais experientes",
       id: 7,
     },
   ];
